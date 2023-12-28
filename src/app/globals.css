@@ -25,3 +25,43 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  color: white;
+}
+h2{
+  margin: 0;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  background-color: black;
+}
+.container{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.field-store{
+  width: 400px;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+}
+input   {
+  color: black;
+}
+textarea {
+  color: black;
+}
